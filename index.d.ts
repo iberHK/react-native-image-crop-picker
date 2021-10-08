@@ -323,6 +323,7 @@ declare module "react-native-image-crop-picker" {
          * Selected image location
          */
         path: string;
+        multiplePath: string;
     }
 
     type VideoOptions = CommonOptions & {
